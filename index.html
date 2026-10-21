@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dynamics Som — Ordens de Serviço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logoBox" title="Clique para inserir/trocar o logotipo"></div>
+        <div class="brand">DYNAMICS <b>SOM</b></div>
+        <nav><button onclick="go('home')">Início</button><button onclick="go('hist')">Histórico de OS</button><button
+                class="pr" onclick="novaOS()">Nova OS</button></nav>
+        <input type="file" id="logoIn" accept="image/*" hidden>
+    </header>
+    <main id="main"></main>
+    <div id="toast"></div>
+    <div id="printRoot" style="display:none"></div>
+    <!-- ============ CONFIGURAÇÕES (edite aqui, sem mexer no JavaScript) ============
+     Taxas em %, use ponto ou vírgula. -->
+    <div id="config" hidden data-nome="DYNAMICS SOM — FILM, ACESSÓRIOS E ESTÉTICA AUTOMOTIVA"
+        data-endereco="Avenida Atlântica, 6214 — Parque Atlântico, São Paulo — SP" data-whatsapp="(11) 94031-8713"
+        data-instagram="@dynamicssom" data-responsavel="Josenildo Alves de Araujo"
+        data-slogan="Entregar mais do que o cliente espera!" data-taxa-vista="6.5" data-taxa-parcelado="7.5"
+        data-max-parcelas="12"></div>
+    <script src="app.js"></script>
